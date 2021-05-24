@@ -15,7 +15,7 @@ repos:
     rev: v1.5.7
     hooks:
     -   id: autopep8
-        args: ["--in-place", "--aggressive", "--max-line-length 120", "--ignore errors E402,W504"]
+        args: ["--in-place", "--aggressive", "--max-line-length=120", "--ignore errors=E402,W504"]
 
 -   repo: https://gitlab.com/pycqa/flake8
     rev: 3.9.1
